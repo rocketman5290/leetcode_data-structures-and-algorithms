@@ -7,7 +7,7 @@ def subsequence?(s, t)
         end
         j += 1
     end
-    return i == s.length
+    return i == s.size
 end
 
 p subsequence?("a", "ab")
